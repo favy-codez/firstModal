@@ -103,6 +103,12 @@ input[type=email] {
             padding: 7px 0px;
         }   
     }
+    @media screen and (max-width:412px){
+        input[type=email]{
+            width: 53%;
+            padding: 7px 0px;
+        }   
+    }
     @media screen and (max-width:375px){
         input[type=email]{
             width: 52%;
