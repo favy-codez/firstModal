@@ -78,3 +78,41 @@ input[type=email] {
   #emoji{
     width: 20px;
   }
+  @media screen and (max-width:1400px){
+    input[type=email]{
+        width: 18%;
+    }
+    ::placeholder{
+        text-align: center;
+    }
+    @media screen and (max-width:992px){
+        input[type=email]{
+            width: 18%;
+            padding: 7px 0px;
+        }   
+    }
+    @media screen and (max-width:768px){
+        input[type=email]{
+            width: 22%;
+            padding: 7px 0px;
+        }   
+    }
+    @media screen and (max-width:576px){
+        input[type=email]{
+            width: 30%;
+            padding: 7px 0px;
+        }   
+    }
+    @media screen and (max-width:375px){
+        input[type=email]{
+            width: 52%;
+            padding: 7px 0px;
+        }   
+    }
+    @media screen and (max-width:300px){
+        input[type=email]{
+            width: 75%;
+            padding: 7px 0px;
+        }   
+    }
+  }
